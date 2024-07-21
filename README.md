@@ -1,4 +1,4 @@
-# be-repeating [TODO]
+# be-repeating (𝄆𝄇) [TODO]
 
 Attribute based version of ib-id
 
@@ -7,10 +7,11 @@ Attribute based version of ib-id
 ```html
 <ul>
     <li>Head Item</li>
-    <li be-repeating='{
+    <li 𝄆='{
         "list": ["hello", "world"],
         "transform": {"li": "."}
-    }'>...</li>
+    }'></li>
+    <li 𝄇></li>
     <li>Footer Item</li>
 </ul>
 ```
