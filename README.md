@@ -58,3 +58,18 @@ Generates:
     <li>Footer</li>
 </ul>
 ```
+
+## Example 3
+
+```html
+<script>
+    customElements.define('my-list', class {
+        ishList = ["hello", "world"]
+    });
+</script>
+<ul itemscope=my-list>
+    <li>Head Item</li>
+    
+    <li>Footer</li>
+</ul>
+```
