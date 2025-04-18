@@ -69,7 +69,7 @@ Generates:
 </script>
 <ul itemscope=my-list>
     <li>Head Item</li>
-    
+    <li be-repeating-each="my-item in my-list"></li>
     <li>Footer</li>
 </ul>
 ```
